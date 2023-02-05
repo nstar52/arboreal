@@ -611,12 +611,12 @@ const Constants = {
         {
           id: 1,
           text: "Return home",
-          nextText: 47,
+          nextText: 52,
         },
         {
           id: 1,
           text: "Go deeper",
-          nextText: 47,
+          nextText: 54,
         }
       ],
     },
