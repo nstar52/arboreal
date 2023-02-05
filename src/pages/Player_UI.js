@@ -52,6 +52,8 @@ const PlayerUI = (props) => {
   };
 
   const endGame = () => {
+    setAnswers([])
+    setGameState([])
     let path = "/end";
     navigate(path);
   };
