@@ -1031,7 +1031,7 @@ const Constants = {
         },
         {
           id: 2,
-          text: "'player' say nothing",
+          text: "Say nothing",
           nextText: 86,
         }
       ],
