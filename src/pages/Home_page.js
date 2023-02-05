@@ -8,8 +8,7 @@ import {
   ModalBottom,
   AvatarContainer,
   Bullets,
-  Paragraph,
-  Container
+  Paragraph
 } from "../styles/HomePage.style";
 import { useNavigate } from "react-router-dom";
 import BrownHare from "../assets/BrownHare.png";

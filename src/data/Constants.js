@@ -200,7 +200,7 @@ const Constants = {
         {
           id: 1,
           text: "pick up bone",
-          setState: {'value': 'bone', 'value': 1},
+          setState: {'id': 'bone', 'value': 1},
           nextText: 18,
         },
         {

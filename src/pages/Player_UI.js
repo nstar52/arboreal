@@ -45,7 +45,6 @@ const PlayerUI = (props) => {
   const [answers, setAnswers] = useState([]);
   const [gameState, setGameState] = useState([]);
   const image_source = textNodes[currentQuestion].image;
-  const [currentTextCounter, setCurrentTextCounter] = useState(0);
 
   const routeChange = () => {
     let path = "/";

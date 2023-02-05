@@ -3,8 +3,7 @@ import Modal from "react-modal";
 import {
   customStyles,
   CloseButton,
-  ModalTop,
-  Container
+  ModalTop
 } from "./PopupModal.style";
 import Button from "../Button/Button";
 import Title from "../Title/Title";
