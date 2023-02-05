@@ -15,6 +15,7 @@ const Constants = {
     {
       id: 2,
       text: "Eisenhoper looks up in awe and then notices the entrance to the bespoke underground rabbit hole network",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -26,6 +27,7 @@ const Constants = {
     {
       id: 3,
       text: "Trevor: Soo, ribbit, I see you finally made your way to Ecna, ribbit!",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -37,6 +39,7 @@ const Constants = {
     {
       id: 4,
       text: "Eisenhopper: Hello there Mr. Frog, I am Eisenhopper!",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -48,6 +51,7 @@ const Constants = {
     {
       id: 5,
       text: "Trevor: Trevor is my name, ribbit. It seems we are both about to head inside!",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -59,6 +63,7 @@ const Constants = {
     {
       id: 6,
       text: "Do you know your way around the burrows?",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -76,6 +81,7 @@ const Constants = {
     {
       id: 7,
       text: "Trevor: Sure, but it also hides a lot of dangers as well, ribbit...",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -87,6 +93,7 @@ const Constants = {
     {
       id: 8,
       text: "I'm trying to cross it all the way to the swamp to return to my family, ribbit, but that sneaky badger is preying on my all morning",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -98,6 +105,7 @@ const Constants = {
     {
       id: 9,
       text: "Let's go inside together, ribbit!",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -109,6 +117,7 @@ const Constants = {
     {
       id: 10,
       text: "Trevor: That’s great! Can I tag along, ribbit? Promise to not slow you down, ribbit!",
+      image: "image1",
       options: [
         {
           id: 1,
@@ -151,6 +160,7 @@ const Constants = {
     {
       id: 13,
       text: "Eisenhopper: I've never been to the swamp, does it have carrots?",
+      image: "image2",
       options: [
         {
           id: 1,
@@ -162,6 +172,7 @@ const Constants = {
     {
       id: 14,
       text: "Eisenhopper: I've heard so much about the network, I really want to explore it!",
+      image: "image2",
       options: [
         {
           id: 1,
@@ -173,6 +184,7 @@ const Constants = {
     {
       id: 15,
       text: "I hope you find your family Trevor, it was nice meeting you!",
+      image: "image2",
       options: [
         {
           id: 1,
@@ -196,6 +208,7 @@ const Constants = {
     {
       id: 17,
       text: "You found a bone and a carrot. The bone can be useful to defend yourself",
+      image: "image3a",
       options: [
         {
           id: 1,
@@ -238,6 +251,7 @@ const Constants = {
     {
       id: 20,
       text: "Trevor runs scared towards the swamp and the badger chases him down",
+      image: "image3c",
       options: [
         {
           id: 1,
@@ -261,6 +275,7 @@ const Constants = {
     {
       id: 22,
       text: "'player' : Who are you?",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -272,6 +287,7 @@ const Constants = {
     {
       id: 23,
       text: "Mr. Sniffles: Me? You meow call me Mr. Sniffles, prrrrroud owner of the undergrrrrrrrround!",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -283,6 +299,7 @@ const Constants = {
     {
       id: 24,
       text: "Just wanted to give you a heads up, it would be better for Eisenhopper to avoid the undergrrrround...",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -294,6 +311,7 @@ const Constants = {
     {
       id: 25,
       text: "Player: Sure...but why?",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -305,6 +323,7 @@ const Constants = {
     {
       id: 26,
       text: "Player: Well, lets say he might discover truths about his...roots",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -335,6 +354,7 @@ const Constants = {
     {
       id: 28,
       text: "What should I do?",
+      image: "image3b",
       options: [
         {
           id: 1,
@@ -351,6 +371,7 @@ const Constants = {
     {
       id: 29,
       text: "I should go and help him, after all I have this sharp bone with me this Badger won't stand a chance",
+      image: "image3b",
       options: [
         {
           id: 1,
@@ -362,6 +383,7 @@ const Constants = {
     {
       id: 30,
       text: "I probably shouldn't wander so far away from my village, maybe that sneaky Badger has a secret stash of carrots...",
+      image: "image3b",
       options: [
         {
           id: 1,
@@ -385,6 +407,7 @@ const Constants = {
     {
       id: 32,
       text: "Badger: But why? Frogs are sssssssssssooo delicious!",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -403,6 +426,7 @@ const Constants = {
     {
       id: 33,
       text: "Draw out the bone",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -414,6 +438,7 @@ const Constants = {
     {
       id: 34,
       text: "Eisenhopper: Don't even think about it",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -425,6 +450,7 @@ const Constants = {
     {
       id: 35,
       text: "You scare the badger off",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -436,6 +462,7 @@ const Constants = {
     {
       id: 36,
       text: "Eisenhopper: Oof, that was something!",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -447,6 +474,7 @@ const Constants = {
     {
       id: 37,
       text: "Trevor: I don't know how to thank you!",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -458,6 +486,7 @@ const Constants = {
     {
       id: 38,
       text: "Eisenhopper: Some carrots would be nice",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -469,6 +498,7 @@ const Constants = {
     {
       id: 39,
       text: "Trevor: There behind the bush..I saw 5 of them last night!",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -490,6 +520,7 @@ const Constants = {
     {
       id: 41,
       text: "Eisenhopper safely returned to his village with 5 delicious carrots! Maybe next time he will find more...",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -501,6 +532,7 @@ const Constants = {
     {
       id: 42,
       text: "Oops, wish I had picked up that bone...",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -512,6 +544,7 @@ const Constants = {
     {
       id: 43,
       text: "Draw out carrot",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -523,6 +556,7 @@ const Constants = {
     {
       id: 44,
       text: "Eisenhopper: Don't even think about it",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -534,6 +568,7 @@ const Constants = {
     {
       id: 45,
       text: "Badger: HarHarHar, do you think I'm afraid of a carrot",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -545,6 +580,7 @@ const Constants = {
     {
       id: 46,
       text: "The badger furiously jumps at you and critically wounds you",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -556,6 +592,7 @@ const Constants = {
     {
       id: 47,
       text: "Eisenhopper's vision fades out while Badger eats Trevor",
+      image: "image5",
       options: [
         {
           id: 1,
@@ -596,6 +633,7 @@ const Constants = {
     {
       id: 50,
       text: "Looks like the one path leads back to the village and the other deeper down the underground network Trevor mentioned",
+      image: "image6",
       options: [
         {
           id: 1,
@@ -607,6 +645,7 @@ const Constants = {
     {
       id: 51,
       text: "Which one should I choose?",
+      image: "image6",
       options: [
         {
           id: 1,
@@ -623,6 +662,7 @@ const Constants = {
     {
       id: 52,
       text: "I found enough carrots for one day and it seems kind of dangerous down there.",
+      image: "image6",
       options: [
         {
           id: 1,
@@ -634,6 +674,7 @@ const Constants = {
     {
       id: 53,
       text: "I probably should be heading back home, its getting dark..",
+      image: "image6",
       options: [
         {
           id: 1,
@@ -645,6 +686,7 @@ const Constants = {
     {
       id: 54,
       text: "I was waiting for this for so long, I feel ready to go deeper!",
+      image: "image6",
       options: [
         {
           id: 1,
@@ -656,6 +698,7 @@ const Constants = {
     {
       id: 55,
       text: "Eisenhopper safely returned to his village with 'Z' delicious carrots! Maybe next time he will find more...",
+      image: "image6",
       options: [
         {
           id: 1,
@@ -679,6 +722,7 @@ const Constants = {
     {
       id: 57,
       text: "Eisenhopper: Who goes there?",
+      image: "image7",
       options: [
         {
           id: 1,
@@ -690,6 +734,7 @@ const Constants = {
     {
       id: 58,
       text: "Mr. Sniffles: I see, it seems 'player' didn't warn you about the dangers?",
+      image: "image7",
       options: [
         {
           id: 1,
@@ -701,6 +746,7 @@ const Constants = {
     {
       id: 59,
       text: "Well, I my name is Mr. Sniffles and let's say I am the host of this place below the roots of Ecna...",
+      image: "image7",
       options: [
         {
           id: 1,
@@ -712,6 +758,7 @@ const Constants = {
     {
       id: 60,
       text: "Eisenhopper: Wait what? Who is 'player' ? You don't make any sense",
+      image: "image7",
       options: [
         {
           id: 1,
@@ -723,6 +770,7 @@ const Constants = {
     {
       id: 61,
       text: "Mr. Sniffles: If answers is what you seek, my mice will help you...",
+      image: "image7",
       options: [
         {
           id: 1,
@@ -765,6 +813,7 @@ const Constants = {
     {
       id: 64,
       text: "Aaa! A rabbit! ",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -776,6 +825,7 @@ const Constants = {
     {
       id: 65,
       text: "Eisenhopper: Hello, I am Eisenhopper..",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -787,6 +837,7 @@ const Constants = {
     {
       id: 66,
       text: "Truffles: Truffles!",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -798,6 +849,7 @@ const Constants = {
     {
       id: 67,
       text: "Eisenhopper: Where?",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -809,6 +861,7 @@ const Constants = {
     {
       id: 68,
       text: "Truffles: No, Truffles is my name!",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -820,6 +873,7 @@ const Constants = {
     {
       id: 69,
       text: "Eisenhopper: Nice to meet you Truffles!",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -831,6 +885,7 @@ const Constants = {
     {
       id: 70,
       text: "Truffles: Did you find the piece of cheese I dreamt about all morning?",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -849,6 +904,7 @@ const Constants = {
     {
       id: 71,
       text: "Eisenhopper: Yes, I have it in my pocket",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -860,6 +916,7 @@ const Constants = {
     {
       id: 72,
       text: "Eisenhopper: No, but I found a pruprle carrot, never seen one before",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -871,6 +928,7 @@ const Constants = {
     {
       id: 73,
       text: "Truffles: Great! Can I have it please, squeak?",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -882,6 +940,7 @@ const Constants = {
     {
       id: 74,
       text: "Eisenhopper: I need your help too, Mr. Sniffles told me you will help me get answers",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -893,6 +952,7 @@ const Constants = {
     {
       id: 75,
       text: "Truffles: Oh..I see...well lets trade then",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -911,6 +971,7 @@ const Constants = {
     {
       id: 76,
       text: "Eisenhopper: What is this?",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -922,6 +983,7 @@ const Constants = {
     {
       id: 77,
       text: "Truffles: Eat it and you will find your answers",
+      image: "image8b",
       options: [
         {
           id: 1,
@@ -978,6 +1040,7 @@ const Constants = {
     {
       id: 81,
       text: "Eisenhopper: Leave us alone!",
+      image: "image8c",
       options: [
         {
           id: 1,
@@ -989,6 +1052,7 @@ const Constants = {
     {
       id: 82,
       text: "Fox: Fine, but there is nothing for you down here...except for bitter truth..shi shi shi!",
+      image: "image8c",
       options: [
         {
           id: 1,
@@ -1000,6 +1064,7 @@ const Constants = {
     {
       id: 83,
       text: "The fox leaves, and the mouse is nowhere to be found ",
+      image: "image8c",
       options: [
         {
           id: 1,
@@ -1011,6 +1076,7 @@ const Constants = {
     {
       id: 84,
       text: "Eisenhopper: I am really hungry",
+      image: "image8c",
       options: [
         {
           id: 1,
@@ -1050,6 +1116,7 @@ const Constants = {
     {
       id: 87,
       text: "Eisenhopper: Who is this? Mr. Sniffles?",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1061,6 +1128,7 @@ const Constants = {
     {
       id: 88,
       text: "'player' : No, I am 'player'",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1072,6 +1140,7 @@ const Constants = {
     {
       id: 89,
       text: "Eisenhopper: Where are you? I can't see you",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1083,6 +1152,7 @@ const Constants = {
     {
       id: 90,
       text: "Player: That's because, I am not in your world",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1094,6 +1164,7 @@ const Constants = {
     {
       id: 91,
       text: "What do you mean? Where are you?",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1105,6 +1176,7 @@ const Constants = {
     {
       id: 92,
       text: "The truth is that I am from a world where a group of people like me created your world",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1116,6 +1188,7 @@ const Constants = {
     {
       id: 93,
       text: "Woah! So you are gods!",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1127,6 +1200,7 @@ const Constants = {
     {
       id: 94,
       text: "Well, not exactly...",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1138,6 +1212,7 @@ const Constants = {
     {
       id: 95,
       text: "But you should know a lot about my world then?",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1149,6 +1224,7 @@ const Constants = {
     {
       id: 96,
       text: "For us, your world exists for a brief amount of time and revolves around the day your are now experiencing...",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1160,6 +1236,7 @@ const Constants = {
     {
       id: 97,
       text: "Your first day of exploring the borrows below Ecna, at the edge of Pando Forest",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1171,6 +1248,7 @@ const Constants = {
     {
       id: 98,
       text: "End when does this day end?",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1182,6 +1260,7 @@ const Constants = {
     {
       id: 99,
       text: "Soon...I suppose...",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1193,6 +1272,7 @@ const Constants = {
     {
       id: 100,
       text: "This means that I will disappear?",
+      image: "image9",
       options: [
         {
           id: 1,
@@ -1204,6 +1284,7 @@ const Constants = {
     {
       id: 101,
       text: "Yes...but I will always remember you...",
+      image: "image9",
       options: [
         {
           id: 1,

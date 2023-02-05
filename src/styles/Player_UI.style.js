@@ -1,25 +1,19 @@
 import styled from "styled-components";
 import { GiExitDoor } from "react-icons/gi"
-//import Scenery1 from "../assets/scenery1.png"
+
 
 export const PageStyle = styled.div`
-width: 100%;
-height: 100vh;
-background-color: black;
+background-color: #101010;
 justify-content: center;
-padding-bottom: 10px;
+align-items: center;
+/* padding-bottom: 10px; */
 
 `
 
 export const Window = styled.div`
-position: fixed;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
 display: grid;
 border: 1px solid #b8bdb7;
 grid-template-columns: 3fr 1fr ;
-grid-template-rows: auto;
 grid-template-areas:  
     "header header"
     "main sidebar"
@@ -27,9 +21,10 @@ grid-template-areas:
 `
 
 export const Title = styled.div`
+display: grid;
 grid-area: header;
+grid-template-columns: 1fr ;
 color: #b8bdb7;
-display: flex;
 justify-content: center;
 align-items: center;
 font-size: 40px;
@@ -38,32 +33,26 @@ font-size: 40px;
 export const Container = styled.div`
 display: grid;
 grid-area: main;
-background-color: black;
+background-color: #101010;
 
 `
 
 export const Scenery = styled.img`
-background-color: black;
-background-size: contain;
-background-repeat: no-repeat;
-width: 90%;
-padding-top: 2%;
-padding-left: 10%;
+background-color: #101010;
 `
 
 export const Sidebar = styled.div`
+display: grid;
 grid-area: sidebar;
 box-sizing: border-box;
-display: grid;
 grid-template-rows: 1fr 1fr;
 align-items: center;
 justify-content: center;
 `
 
 export const Avatar = styled.img`
-  width: 120px;
-  height: 120px;
-  /* padding-left: 45%; */
+  /* width: 120px;
+  height: 120px; */
 `;
 
 export const Door = styled(GiExitDoor)`
