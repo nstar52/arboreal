@@ -45,6 +45,7 @@ const PlayerUI = (props) => {
   const [answers, setAnswers] = useState([]);
   const [gameState, setGameState] = useState([]);
   const image_source = textNodes[currentQuestion].image;
+  const test = false
 
   const routeChange = () => {
     let path = "/";
@@ -61,6 +62,9 @@ const PlayerUI = (props) => {
   const handleAnswerButtonClick = (nextNode, setState = null) => {
     if (nextNode < 0) {
       nextNode = 1;
+      if (test) {
+        endGame();
+      }
     }
 
     if (setState) {
