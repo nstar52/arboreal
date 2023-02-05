@@ -81,7 +81,7 @@ const PlayerUI = (props) => {
 
   useEffect(() => {
     const readQuestion = (id) => {
-      setQuestion(textNodes[id].text.replace("'player'", "player_name"));
+      setQuestion(textNodes[id].text.replace("'player'", player_name));
 
       while (answers.length > 0) {
         answers.pop();
