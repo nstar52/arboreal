@@ -248,7 +248,7 @@ const Constants = {
     },
     {
       id: 21,
-      text: "Grrrrrh, greetings there 'player'! How are you enjoying your adventures with Eisenhopper so far?",
+      text: "Grrrrrh, greetings there 'player' ! How are you enjoying your adventures with Eisenhopper so far?",
       image: "image4",
       options: [
         {
@@ -260,7 +260,7 @@ const Constants = {
     },
     {
       id: 22,
-      text: "'player': Who are you?",
+      text: "'player' : Who are you?",
       options: [
         {
           id: 1,
@@ -711,7 +711,7 @@ const Constants = {
     },
     {
       id: 60,
-      text: "Eisenhopper: Wait what? Who is 'player'? You don't make any sense",
+      text: "Eisenhopper: Wait what? Who is 'player' ? You don't make any sense",
       options: [
         {
           id: 1,
