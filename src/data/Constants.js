@@ -1027,12 +1027,12 @@ const Constants = {
         {
           id: 1,
           text: "Hello Eisenhopper",
-          nextText: 77,
+          nextText: 87,
         },
         {
           id: 2,
           text: "Say nothing",
-          nextText: 77,
+          nextText: 86,
         }
       ],
     },
