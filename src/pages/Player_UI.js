@@ -61,7 +61,6 @@ const PlayerUI = (props) => {
   const handleAnswerButtonClick = (nextNode, setState = null) => {
     if (nextNode < 0) {
       nextNode = 1;
-      endGame()
     }
 
     if (setState) {
