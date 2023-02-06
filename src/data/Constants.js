@@ -9,7 +9,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 2,
-        }
+        },
       ],
     },
     {
@@ -21,7 +21,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 3,
-        }
+        },
       ],
     },
     {
@@ -45,7 +45,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 5,
-        }
+        },
       ],
     },
     {
@@ -57,7 +57,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 6,
-        }
+        },
       ],
     },
     {
@@ -87,7 +87,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 8,
-        }
+        },
       ],
     },
     {
@@ -99,7 +99,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 9,
-        }
+        },
       ],
     },
     {
@@ -111,7 +111,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 11,
-        }
+        },
       ],
     },
     {
@@ -123,7 +123,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 12,
-        }
+        },
       ],
     },
     {
@@ -135,7 +135,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 12,
-        }
+        },
       ],
     },
     {
@@ -146,15 +146,15 @@ const Constants = {
         {
           id: 1,
           text: "Go with Trevor",
-          setState: {'id': 'trevor', 'value': 1},
+          setState: { id: "trevor", value: 1 },
           nextText: 13,
         },
         {
           id: 2,
           text: "Go deeper",
-          setState: {'id':'deeper', 'value': 1},
+          setState: { id: "deeper", value: 1 },
           nextText: 14,
-        }
+        },
       ],
     },
     {
@@ -166,7 +166,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 16,
-        }
+        },
       ],
     },
     {
@@ -178,7 +178,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 15,
-        }
+        },
       ],
     },
     {
@@ -190,7 +190,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 21,
-        }
+        },
       ],
     },
     {
@@ -202,7 +202,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 17,
-        }
+        },
       ],
     },
     {
@@ -213,15 +213,15 @@ const Constants = {
         {
           id: 1,
           text: "pick up bone",
-          setState: {'id': 'bone', 'value': 1},
+          setState: { id: "bone", value: 1 },
           nextText: 18,
         },
         {
           id: 2,
           text: "pick up carrot",
-          setState: {'id': 'carrot', 'value': 1},
+          setState: { id: "carrot", value: 1 },
           nextText: 18,
-        }
+        },
       ],
     },
     {
@@ -233,7 +233,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 19,
-        }
+        },
       ],
     },
     {
@@ -245,7 +245,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 20,
-        }
+        },
       ],
     },
     {
@@ -257,31 +257,31 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 21,
-        }
+        },
       ],
     },
     {
       id: 21,
-      text: "Grrrrrh, greetings there 'player' ! How are you enjoying your adventures with Eisenhopper so far?",
+      text: "Grrrrrh, greetings there 'player'! How are you enjoying your adventures with Eisenhopper so far?",
       image: "image4",
       options: [
         {
           id: 1,
           text: "Continue",
           nextText: 22,
-        }
+        },
       ],
     },
     {
       id: 22,
-      text: "'player' : Who are you?",
+      text: "'player': Who are you?",
       image: "image4",
       options: [
         {
           id: 1,
           text: "Continue",
           nextText: 23,
-        }
+        },
       ],
     },
     {
@@ -293,7 +293,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 24,
-        }
+        },
       ],
     },
     {
@@ -305,38 +305,38 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 25,
-        }
+        },
       ],
     },
     {
       id: 25,
-      text: "Player: Sure...but why?",
+      text: "'player': Sure...but why?",
       image: "image4",
       options: [
         {
           id: 1,
           text: "Continue",
           nextText: 26,
-        }
+        },
       ],
     },
     {
       id: 26,
-      text: "Player: Well, lets say he might discover truths about his...roots",
+      text: "'player': Well, lets say he might discover truths about his...roots",
       image: "image4",
       options: [
         {
           id: 1,
           text: "Continue",
-          requiredState: {'id': 'trevor', 'value': 1},
+          requiredState: { id: "trevor", value: 1 },
           nextText: 27,
         },
         {
           id: 2,
           text: "Continue",
-          requiredState: {'id': 'deeper', 'value': 1},
+          requiredState: { id: "deeper", value: 1 },
           nextText: 57,
-        }
+        },
       ],
     },
     {
@@ -348,7 +348,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 28,
-        }
+        },
       ],
     },
     {
@@ -365,7 +365,7 @@ const Constants = {
           id: 2,
           text: "Search Badger's hideout",
           nextText: 30,
-        }
+        },
       ],
     },
     {
@@ -377,7 +377,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 31,
-        }
+        },
       ],
     },
     {
@@ -389,7 +389,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 50,
-        }
+        },
       ],
     },
     {
@@ -401,7 +401,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 32,
-        }
+        },
       ],
     },
     {
@@ -412,15 +412,15 @@ const Constants = {
         {
           id: 1,
           text: "Continue",
-          requiredState: {'id': 'bone', 'value': 1},
+          requiredState: { id: "bone", value: 1 },
           nextText: 33,
         },
         {
           id: 2,
           text: "Continue",
-          requiredState: {'id': 'carrot', 'value': 1},
+          requiredState: { id: "carrot", value: 1 },
           nextText: 42,
-        }
+        },
       ],
     },
     {
@@ -456,7 +456,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 36,
-        }
+        },
       ],
     },
     {
@@ -468,7 +468,7 @@ const Constants = {
           id: 1,
           text: "Continue",
           nextText: 37,
-        }
+        },
       ],
     },
     {
@@ -506,13 +506,15 @@ const Constants = {
           nextText: 40,
         },
       ],
-    },{
+    },
+    {
       id: 40,
       text: "You know your way back! Hope we meet again!",
+      image: "image5",
       options: [
         {
           id: 1,
-          text: "Game over",
+          text: "Continue",
           nextText: 41,
         },
       ],
@@ -520,7 +522,7 @@ const Constants = {
     {
       id: 41,
       text: "Eisenhopper safely returned to his village with 5 delicious carrots! Maybe next time he will find more...",
-      image: "image5",
+      image: "ending1",
       options: [
         {
           id: 1,
@@ -604,6 +606,7 @@ const Constants = {
     {
       id: 48,
       text: "You tried your best, but unfortunately you couldn't save Trevor...maybe next time?",
+      image: "ending2",
       options: [
         {
           id: 1,
@@ -620,14 +623,14 @@ const Constants = {
         {
           id: 1,
           text: "Take them",
-          setState: {'id': 'carrot', 'value': 3},
+          setState: { id: "carrot", value: 3 },
           nextText: 50,
         },
         {
           id: 1,
           text: "Leave them",
           nextText: 50,
-        }
+        },
       ],
     },
     {
@@ -656,7 +659,7 @@ const Constants = {
           id: 1,
           text: "Go deeper",
           nextText: 54,
-        }
+        },
       ],
     },
     {
@@ -698,7 +701,7 @@ const Constants = {
     {
       id: 55,
       text: "Eisenhopper safely returned to his village with 'Z' delicious carrots! Maybe next time he will find more...",
-      image: "image6",
+      image: "ending3",
       options: [
         {
           id: 1,
@@ -757,7 +760,7 @@ const Constants = {
     },
     {
       id: 60,
-      text: "Eisenhopper: Wait what? Who is 'player' ? You don't make any sense",
+      text: "Eisenhopper: Wait what? Who is 'player'? You don't make any sense",
       image: "image7",
       options: [
         {
@@ -787,13 +790,13 @@ const Constants = {
         {
           id: 1,
           text: "Pick up cheese",
-          setState: {'id': 'cheese', 'value': 1},
+          setState: { id: "cheese", value: 1 },
           nextText: 63,
         },
         {
           id: 2,
           text: "Pick up purple carrot",
-          setState: {'id': 'purple carrot', 'value': 1},
+          setState: { id: "purple carrot", value: 1 },
           nextText: 63,
         },
       ],
@@ -890,15 +893,15 @@ const Constants = {
         {
           id: 1,
           text: "Continue",
-          requiredState: {'id': 'cheese', 'value': 1},
+          requiredState: { id: "cheese", value: 1 },
           nextText: 71,
         },
         {
           id: 1,
           text: "Continue",
-          requiredState: {'id': 'purple carrot', 'value': 1},
+          requiredState: { id: "purple carrot", value: 1 },
           nextText: 72,
-        }
+        },
       ],
     },
     {
@@ -957,15 +960,15 @@ const Constants = {
         {
           id: 1,
           text: "Trade the cheese for 6 carrots",
-          setState: {'id': 'carrot', 'value': 6},
+          setState: { id: "carrot", value: 6 },
           nextText: 76,
         },
         {
           id: 2,
           text: "Trade the cheese for 1 purple carrot",
-          setState: {'id': 'purple carrot', 'value': 1},
+          setState: { id: "purple carrot", value: 1 },
           nextText: 76,
-        }
+        },
       ],
     },
     {
@@ -994,7 +997,7 @@ const Constants = {
           id: 2,
           text: "Don't eat it",
           nextText: 78,
-        }
+        },
       ],
     },
     {
@@ -1010,14 +1013,15 @@ const Constants = {
         {
           id: 2,
           text: "Take out the sharp bone and fight!",
-          requiredState: {'id': 'bone', 'value': 1},
+          requiredState: { id: "bone", value: 1 },
           nextText: 81,
-        }
+        },
       ],
     },
     {
       id: 79,
       text: "Eisenhopper safely returned to his village with 'Z' delicious carrots! Maybe next time he will find more...",
+      image: "ending4",
       options: [
         {
           id: 1,
@@ -1029,6 +1033,7 @@ const Constants = {
     {
       id: 80,
       text: "Eisenhopper safely returned to his village with 1 purple carrot, but he never find out... Maybe Next time...",
+      image: "ending4",
       options: [
         {
           id: 1,
@@ -1099,12 +1104,13 @@ const Constants = {
           id: 2,
           text: "Say nothing",
           nextText: 86,
-        }
+        },
       ],
     },
     {
       id: 86,
       text: "Eisenhopper got a glimpse of the truth...and it was beautiful...",
+      image: "ending5",
       options: [
         {
           id: 1,
@@ -1127,7 +1133,7 @@ const Constants = {
     },
     {
       id: 88,
-      text: "'player' : No, I am 'player'",
+      text: "'player': No, I am 'player'",
       image: "image9",
       options: [
         {
@@ -1151,7 +1157,7 @@ const Constants = {
     },
     {
       id: 90,
-      text: "Player: That's because, I am not in your world",
+      text: "'player': That's because, I am not in your world",
       image: "image9",
       options: [
         {
@@ -1304,7 +1310,6 @@ const Constants = {
         },
       ],
     },
-
   ],
 };
 

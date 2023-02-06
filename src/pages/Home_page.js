@@ -8,13 +8,12 @@ import {
   ModalBottom,
   AvatarContainer,
   Bullets,
-  Paragraph
+  Paragraph,
 } from "../styles/HomePage.style";
 import { useNavigate } from "react-router-dom";
 import BrownHare from "../assets/BrownHare.png";
 import GrayRabbit from "../assets/GrayRabbit.png";
 import WhiteBunny from "../assets/WhiteBunny.png";
-
 
 const HomePage = () => {
   const [playerName, setPlayerName] = useState("player name");
@@ -39,9 +38,12 @@ const HomePage = () => {
 
   return (
     <PageStyle>
-      
-      <Title color='#B8BDB7' size='50px' text="Welcome to the Arboreal Quest"></Title>
-  
+      <Title
+        color="#B8BDB7"
+        size="50px"
+        text="Welcome to the Arboreal Quest"
+      ></Title>
+
       <div>
         <Popup
           text="New Game"
@@ -50,17 +52,17 @@ const HomePage = () => {
               <Character>
                 <RowStyle>
                   <div>
-                    <Title size='25px' text="Enter your name" />
+                    <Title size="25px" text="Enter your name" />
 
                     <input
                       onChange={(e) => setPlayerName(e.target.value)}
-                      placeholder='Type a name'
+                      placeholder="Type a name"
                     />
                   </div>
                 </RowStyle>
 
-                <RowStyle gap='10px'>
-                  <Title size='25px' text="Pick a character" />
+                <RowStyle gap="10px">
+                  <Title size="25px" text="Pick a character" />
                   <DropDown
                     options={options}
                     value={value}
@@ -87,28 +89,33 @@ const HomePage = () => {
             </div>
           }
         />
-        <Popup 
+
+        <Popup
           text="About"
           children={
-            <div>              
-              <Title size='35px' text="Game story" />
+            <div>
+              <Title size="35px" text="Game story" />
               <Paragraph>
-              In the game you control a rabbit named Eisenhopper, who is about to explore the famous underground rabbit hole network, in the roots of the Old Oak Tree Ecna, located at the edge of Pando forest											
-              Eisenhopper has grown enough to finally wander further away of his/her family free to explore the forest and of course find a looot of carrots!												
+                In the game you control a rabbit named Eisenhopper, who is about
+                to explore the famous underground rabbit hole network, in the
+                roots of the Old Oak Tree Ecna, located at the edge of Pando
+                forest Eisenhopper has grown enough to finally wander further
+                away of his/her family free to explore the forest and of course
+                find a looot of carrots!
               </Paragraph>
-              <Title text='Credits' align='Left' size='30px' />
+              <Title text="Credits" align="Left" size="30px" />
               <Bullets>
-
-              <dt>Arbaroriza team:</dt>
+                <dt>Arbaroriza team:</dt>
                 <ul>
                   <li>Spyros</li>
                   <li>Nikos</li>
                   <li>Antonis</li>
                   <li>Stefanos</li>
                 </ul>
-              </Bullets>               
+              </Bullets>
             </div>
-          } />
+          }
+        />
       </div>
     </PageStyle>
   );

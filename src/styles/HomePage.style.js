@@ -3,13 +3,11 @@ import styled from "styled-components";
 export const PageStyle = styled.div`
   display: grid;
   grid-template-columns: 1fr;
-  /* grid-template-rows: 50vh; */
   align-items: center;
-  justify-items: center; /* adjusted */
+  justify-items: center;
   background-color: #101010;
   height: 100vh;
 `;
-
 
 export const Bullets = styled.dl`
   dt {
@@ -38,7 +36,7 @@ export const Character = styled.div`
   grid-template-columns: 1fr 1fr;
   /* padding: 2rem 1.5rem 0.5rem 2rem; */
 
-  input{
+  input {
     border: 2px solid #b8bdb7;
     border-radius: 4px;
     width: 90%;
@@ -47,7 +45,7 @@ export const Character = styled.div`
     font-size: 30px;
     background-color: #101010;
     color: #b8bdb7;
-}
+  }
 `;
 
 export const AvatarContainer = styled.div`

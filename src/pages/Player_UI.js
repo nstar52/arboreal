@@ -1,3 +1,6 @@
+import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { useLocation } from "react-router-dom";
 import {
   PageStyle,
   Container,
@@ -11,41 +14,22 @@ import {
   Window,
   Scenery,
 } from "../styles/Player_UI.style";
-import React, { useEffect, useState } from "react";
-// import roomPicture from "../scenery.jpg";
-import { useNavigate } from "react-router-dom";
-import { useLocation } from "react-router-dom";
-// import Typed from "react-typed";
-// import Typical from "react-typical";
 import BrownHare from "../assets/BrownHare.png";
 import GrayRabbit from "../assets/GrayRabbit.png";
 import WhiteBunny from "../assets/WhiteBunny.png";
-import Image1 from "../assets/image1.jpg";
-import Image2 from "../assets/image2.jpg";
-import Image3a from "../assets/image3a.jpg";
-import Image3b from "../assets/image3b.jpg";
-import Image3c from "../assets/image3c.jpg";
-import Image4 from "../assets/image4.jpg";
-import Image5 from "../assets/image5.jpg";
-import Image6 from "../assets/image6.jpg";
-import Image7 from "../assets/image7.jpg";
-import Image8a from "../assets/image8a.jpg";
-import Image8b from "../assets/image8b.jpg";
-import Image8c from "../assets/image8c.jpg";
-import Image9 from "../assets/image9.jpg";
 
 const PlayerUI = (props) => {
-  const textNodes = props.dialogs;
-  const [currentQuestion, setCurrentQuestion] = useState(0);
-  const location = useLocation();
-  const player_name = location.state.name;
-  const avatar = location.state.avatar;
-  let navigate = useNavigate();
   const [question, setQuestion] = useState("");
   const [answers, setAnswers] = useState([]);
   const [gameState, setGameState] = useState([]);
-  const image_source = textNodes[currentQuestion].image;
-  const test = false
+  const [currentQuestion, setCurrentQuestion] = useState(0);
+  const textNodes = props.dialogs;
+  const location = useLocation();
+  const player_name = location.state.name;
+  const avatar = location.state.avatar;
+  const test = false;
+  let navigate = useNavigate();
+  const [image, setImage] = useState();
 
   const routeChange = () => {
     let path = "/";
@@ -53,8 +37,8 @@ const PlayerUI = (props) => {
   };
 
   const endGame = () => {
-    setAnswers([])
-    setGameState([])
+    setAnswers([]);
+    setGameState([]);
     let path = "/end";
     navigate(path);
   };
@@ -66,12 +50,14 @@ const PlayerUI = (props) => {
         endGame();
       }
     }
+    console.log(gameState);
 
     if (setState) {
       let data = gameState.filter((item) => item.id === setState.id);
       if (data.length > 0) {
         let number = gameState.findIndex((result) => result.id === setState.id);
         gameState[number].value = gameState[number].value + setState.value;
+        // console.log(gameState);
       } else {
         gameState.push(setState);
       }
@@ -84,7 +70,11 @@ const PlayerUI = (props) => {
 
   useEffect(() => {
     const readQuestion = (id) => {
+      if (textNodes[id].text.includes("player")) {
+        setQuestion(textNodes[id].text.replace(/'player'/g, player_name));
+      }
       setQuestion(textNodes[id].text.replace("'player'", player_name));
+      setImage(require("../assets/" + textNodes[id].image + ".jpg"));
 
       while (answers.length > 0) {
         answers.pop();
@@ -92,13 +82,12 @@ const PlayerUI = (props) => {
 
       textNodes[id].options.forEach((option) => {
         if (option.requiredState) {
-          console.log(gameState);
           let data = gameState.filter(
             (item) =>
               item.id === option.requiredState.id &&
               item.value >= option.requiredState.value
           );
-          console.log(data);
+
           if (data.length > 0) {
             answers.push(option);
             let number = gameState.findIndex(
@@ -112,7 +101,7 @@ const PlayerUI = (props) => {
             }
           }
         } else {
-          console.log(option);
+          // console.log(option);
           answers.push(option);
         }
       });
@@ -129,72 +118,27 @@ const PlayerUI = (props) => {
         </Title>
 
         <Container>
-          <div>
-            {image_source === "image2" ? (
-              <Scenery src={Image2} />
-            ) : image_source === "image3a" ? (
-              <Scenery src={Image3a} />
-            ) : image_source === "image3b" ? (
-              <Scenery src={Image3b} />
-            ) : image_source === "image3c" ? (
-              <Scenery src={Image3c} />
-            ) : image_source === "image4" ? (
-              <Scenery src={Image4} />
-            ) : image_source === "image5" ? (
-              <Scenery src={Image5} />
-            ) : image_source === "image6" ? (
-              <Scenery src={Image6} />
-            ) : image_source === "image7" ? (
-              <Scenery src={Image7} />
-            ) : image_source === "image8a" ? (
-              <Scenery src={Image8a} />
-            ) : image_source === "image8b" ? (
-              <Scenery src={Image8b} />
-            ) : image_source === "image8c" ? (
-              <Scenery src={Image8c} />
-            ) : image_source === "image9" ? (
-              <Scenery src={Image9} />
-            ) : (
-              <Scenery src={Image1} />
-            )}
-          </div>
+          <Scenery src={image} />
+
+          <Sidebar>
+            <div>
+              {avatar === "Gray Rabbit" ? (
+                <Avatar src={GrayRabbit} />
+              ) : avatar === "Brown Hare" ? (
+                <Avatar src={BrownHare} />
+              ) : (
+                <Avatar src={WhiteBunny} />
+              )}
+            </div>
+            <div>
+              <Door size={100} onClick={routeChange} />
+            </div>
+          </Sidebar>
         </Container>
 
-        <Sidebar>
-          <div>
-            {avatar === "Gray Rabbit" ? (
-              <Avatar src={GrayRabbit} />
-            ) : avatar === "Brown Hare" ? (
-              <Avatar src={BrownHare} />
-            ) : (
-              <Avatar src={WhiteBunny} />
-            )}
-          </div>
-          <div>
-            <Door size={100} onClick={routeChange} />
-          </div>
-        </Sidebar>
-
         <DialogContainer>
-          {/* <div>
-            <Typed
-              strings={[question]}
-              typeSpeed={35}
-              fadeOut={true}
-              onComplete={stop}
-              loop
-            />
-          </div>  */}
+          
           <div>{question}</div>
-
-          {/* <Typical steps={[question]} wrapper={"p"} /> */}
-          {/* <Typewriter
-            words={[question]}
-            typeSpeed={70}
-            delaySpeed={1000}
-          />
-           */}
-
           <ButtonGrid>
             {answers.map((answer) => (
               <OptionButton

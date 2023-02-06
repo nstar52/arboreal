@@ -9,22 +9,25 @@ import { Helmet, HelmetProvider } from "react-helmet-async";
 function App() {
   return (
     <HelmetProvider>
-    <Helmet>
-    <title>Arbaroriza</title>
-    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet"/>
-    </Helmet>
-    <Router>
-      <GlobalStyle />
-
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route
-          path="/story"
-          element={<PlayerUI dialogs={Constants.textNodes} />}
+      <Helmet>
+        <title>Arbaroriza</title>
+        <link
+          href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+          rel="stylesheet"
         />
-        <Route path="/end" element={<EndPage />} />
-      </Routes>
-    </Router>
+      </Helmet>
+      <Router>
+        <GlobalStyle />
+
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route
+            path="/story"
+            element={<PlayerUI dialogs={Constants.textNodes} />}
+          />
+          <Route path="/end" element={<EndPage />} />
+        </Routes>
+      </Router>
     </HelmetProvider>
   );
 }
