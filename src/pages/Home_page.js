@@ -15,10 +15,12 @@ import BrownHare from "../assets/BrownHare.png";
 import GrayRabbit from "../assets/GrayRabbit.png";
 import WhiteBunny from "../assets/WhiteBunny.png";
 
+
 const HomePage = () => {
   const [playerName, setPlayerName] = useState("player name");
   const [value, setValue] = useState("White Bunny");
   let navigate = useNavigate();
+  
 
   const routeChange = () => {
     let path = "/story";

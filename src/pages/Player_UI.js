@@ -17,6 +17,7 @@ import {
 import BrownHare from "../assets/BrownHare.png";
 import GrayRabbit from "../assets/GrayRabbit.png";
 import WhiteBunny from "../assets/WhiteBunny.png";
+import audio from "../assets/AQ_Take.mp3"
 
 const PlayerUI = (props) => {
   const [question, setQuestion] = useState("");
@@ -30,6 +31,7 @@ const PlayerUI = (props) => {
   const test = false;
   let navigate = useNavigate();
   const [image, setImage] = useState();
+  let song = new Audio(audio);
 
   const routeChange = () => {
     let path = "/";
@@ -69,6 +71,7 @@ const PlayerUI = (props) => {
   };
 
   useEffect(() => {
+    song.play();
     const readQuestion = (id) => {
       if (textNodes[id].text.includes("player")) {
         setQuestion(textNodes[id].text.replace(/'player'/g, player_name));
