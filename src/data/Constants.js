@@ -335,7 +335,7 @@ const Constants = {
           id: 2,
           text: "Continue",
           requiredState: { id: "deeper", value: 1 },
-          nextText: 57,
+          nextText: 56,
         },
       ],
     },
@@ -713,7 +713,7 @@ const Constants = {
     {
       id: 56,
       text: "Mr. Sniffles: Hello there little rabbit! Are you sure you want to go deeper, meow?",
-      image: "image7",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -725,7 +725,7 @@ const Constants = {
     {
       id: 57,
       text: "Eisenhopper: Who goes there?",
-      image: "image7",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -737,7 +737,7 @@ const Constants = {
     {
       id: 58,
       text: "Mr. Sniffles: I see, it seems 'player' didn't warn you about the dangers?",
-      image: "image7",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -749,7 +749,7 @@ const Constants = {
     {
       id: 59,
       text: "Well, I my name is Mr. Sniffles and let's say I am the host of this place below the roots of Ecna...",
-      image: "image7",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -761,7 +761,7 @@ const Constants = {
     {
       id: 60,
       text: "Eisenhopper: Wait what? Who is 'player'? You don't make any sense",
-      image: "image7",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -773,7 +773,7 @@ const Constants = {
     {
       id: 61,
       text: "Mr. Sniffles: If answers is what you seek, my mice will help you...",
-      image: "image7",
+      image: "image4",
       options: [
         {
           id: 1,
@@ -961,7 +961,7 @@ const Constants = {
           id: 1,
           text: "Trade the cheese for 6 carrots",
           setState: { id: "carrot", value: 6 },
-          nextText: 76,
+          nextText: 79,
         },
         {
           id: 2,
