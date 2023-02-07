@@ -19,6 +19,8 @@ import GrayRabbit from "../assets/GrayRabbit.png";
 import WhiteBunny from "../assets/WhiteBunny.png";
 import audio from "../assets/AQ_Take.mp3"
 
+const song = new Audio(audio);
+
 const PlayerUI = (props) => {
   const [question, setQuestion] = useState("");
   const [answers, setAnswers] = useState([]);
@@ -31,7 +33,10 @@ const PlayerUI = (props) => {
   const test = false;
   let navigate = useNavigate();
   const [image, setImage] = useState();
-  let song = new Audio(audio);
+
+  if (song.currentTime === 0) {
+    song.play();
+  }
 
   const routeChange = () => {
     let path = "/";
@@ -52,7 +57,8 @@ const PlayerUI = (props) => {
         endGame();
       }
     }
-    console.log(gameState);
+ 
+    // console.log(gameState);
 
     if (setState) {
       let data = gameState.filter((item) => item.id === setState.id);
