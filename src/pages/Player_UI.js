@@ -79,10 +79,12 @@ const PlayerUI = (props) => {
   useEffect(() => {
     song.play();
     const readQuestion = (id) => {
-      if (textNodes[id].text.includes("player")) {
-        setQuestion(textNodes[id].text.replace(/'player'/g, player_name));
+      if (textNodes[id].text.includes("'player'")) {
+        setQuestion(textNodes[id].text.replace(new RegExp("'player'", "g"), player_name));
+      } else {
+        setQuestion(textNodes[id].text);
       }
-      setQuestion(textNodes[id].text.replace("'player'", player_name));
+      
       setImage(require("../assets/" + textNodes[id].image + ".jpg"));
 
       while (answers.length > 0) {
